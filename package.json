@@ -1,0 +1,24 @@
+{
+  "name": "tcp-udp-motion-explainer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Motion graphic TCP vs UDP sesuai PRD, 1920×1080, 30 fps.",
+  "scripts": {
+    "dev": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "render": "remotion render TcpUdpExplainer out/tcp-udp.mp4",
+    "fonts:prepare": "node scripts/prepare-fonts.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "@remotion/google-fonts": "4.0.538",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.538"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

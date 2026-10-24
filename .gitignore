@@ -1,0 +1,8 @@
+node_modules/
+out/
+build/
+.remotion/
+.playwright-cli/
+qa/screenshots/
+public/audio/*.mp3
+*.tsbuildinfo

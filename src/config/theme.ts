@@ -1,0 +1,15 @@
+export const theme = {
+  background: '#0B1220',
+  surface: '#131C2E',
+  text: '#E8EEF9',
+  muted: '#8FA3C4',
+  line: '#2A3951',
+  tcp: '#3B82F6',
+  udp: '#F97316',
+  success: '#22C55E',
+  failure: '#EF4444',
+  warning: '#FACC15',
+  safe: 96,
+  titleSize: 96,
+  labelSize: 32,
+} as const;
